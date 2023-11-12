@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnds store</title>
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css"">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="Index.html">
+        <img
+          class="header__logo navegation__link--active"
+          src="img/logo.png"
+          alt="Logotipo"
+        />
+      </a>
+    </header>
+    <nav class="navegation">
+      <a class="navegation__link" href="Index.html">Store </a>
+      <a class="navegation__link" href="aboutus.html">About Us</a>
+    </nav>
+    <main class="container">
+      <h1>React JS</h1>
+      <div class="tshort">
+        <img class="tshort__img" src="img/1.jpg" alt="img of the product" />
+        <div class="tshort__container">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
+            corrupti est tenetur ullam, dignissimos praesentium aperiam delectus
+            ratione et porro a deserunt voluptas impedit nam tempore magni fuga
+            ipsa obcaecati.
+          </p>
+          <form class="formulary">
+            <select class="formulary__type">
+              <option disabled selected>-- Select Size--</option>
+              <option>Small</option>
+              <option>Median</option>
+              <option>Big</option>
+            </select>
+            <input
+              class="formulary__type"
+              type="number"
+              placeholder="Quantity"
+              min="1"
+            />
+            <input
+              class="formulary__submit"
+              type="submit"
+              value="Add to cart"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer_text">FrontEnd Store - All rights reserved 2023.</p>
+    </footer>
+  </body>
+</html>
